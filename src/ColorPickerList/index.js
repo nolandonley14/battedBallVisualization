@@ -1,22 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { TwitterPicker } from 'react-color';
+import React, { useState } from 'react';
 import { ColorButton } from './ColorButton';
 import './index.css';
-
-const xAxisLabelOffset = 50;
-const yAxisLabelOffset = 40;
 
 export function ColorPickerList({colors, setColors}) {
 
     const [pickers, setPickers] = useState([0,0,0,0,0,0,0,0,0]);
-
-    const getPicker = (index) => {
-      if (pickers[index] == 1) {
-        return 'block';
-      } else {
-        return 'none';
-      }
-    }
 
     const setPicker = (index) => {
       const p = pickers.slice();

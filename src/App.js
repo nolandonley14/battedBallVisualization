@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useData } from './useData';
 import { ScatterPlot } from './ScatterPlot';
 import { SearchBar } from './SearchBar';
-import { TwitterPicker } from 'react-color';
 import { ColorPickerList } from './ColorPickerList';
 import './App.css';
 
@@ -59,7 +58,7 @@ function App() {
         title = title + ' (' + personFilter[0].label + ': ' + personFilter[0].value + ')';
         break;
       default:
-        if (type == 0) {
+        if (type === 0) {
           title = title + ' (Multiple)';
         } else {
           title = title + ' (' + personFilter[0].value + ' v ' + personFilter[1].value + ')';

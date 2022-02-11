@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { AxisBottom } from '../AxisBottom';
 import { AxisLeft } from '../AxisLeft';
 import { Marks } from '../Marks';
-import { scaleLinear, max, format, extent } from 'd3';
+import { scaleLinear, extent } from 'd3';
 import './index.css';
 
 const xAxisLabelOffset = 50;

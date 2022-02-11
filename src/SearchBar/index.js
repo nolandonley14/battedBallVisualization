@@ -62,7 +62,7 @@ export function SearchBar({data, updateFunc}) {
 
   const select = (user, i) => {
     if (checkedOption !== options[2]) {
-      if (selectedPlayers.filter(p => p.name === players[i].name).length == 0) {
+      if (selectedPlayers.filter(p => p.name === players[i].name).length === 0) {
         setSelectedPlayers([...selectedPlayers, players[i]]);
       }
     }
