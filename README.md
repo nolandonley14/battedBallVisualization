@@ -1,5 +1,7 @@
 # Batted Ball Visualization Project
 
+This link to the github page is : https://nolandonley14.github.io/battedBallVisualization/
+
 This is a quild build of a web app to visualize and contextualize the data found in /public/battedBallData.tsv
 
 This application has the following features:
