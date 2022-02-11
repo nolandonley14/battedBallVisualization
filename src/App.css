@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 5em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  color: #635F5D;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftSide {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.charts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.formFilters {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.axisCheckBoxes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.formXContainer {
+  padding: 10px 30px;
+}
+
+.formX {
+  text-align: center;
+}
+
+.formY {
+  text-align: center;
+}
+
+.formYContainer {
+  padding: 10px 30px;
+}
+
+.chartTitle {
+  font-size: 1.5em;
+  color: #137B80;
+  margin: 10px 0px;
+}
+
+.pickerList {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0px;
+  width: 60%;
+  text-align: center;
+}
+
+.submitText {
+    font-size: 1em;
+    padding: 10px 20px;
+    border-width: 2;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: #635F5D;
+    color: #635F5D;
+    cursor: pointer;
+}
+
+.submitText:hover {
+  background-color: #BFD4DB;
+  color: #635F5D;
 }

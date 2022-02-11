@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+}
+
+.input {
+  padding: 5px 15px;
+  width: 300px;
+}
+
+.user-list {
+  margin-top: 30px;
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+.modeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.versus {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.versusButton {
+    font-size: 1em;
+    padding: 10px 20px;
+    border-width: 2;
+    border-radius: 20px;
+    border-color: #635F5D;
+    color: #635F5D;
+    cursor: pointer;
+}
+
+.versusButton:hover {
+  background-color: #BFD4DB;
+  color: #635F5D;
+}
+
+.versus div {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.formOptions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  background: #eee;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.active {
+  background: #ff8886;
+}
+
+.active a {
+  color: #fff;
+}
+
+.user-name {
+  color: blue;
+  cursor: pointer;
+}
