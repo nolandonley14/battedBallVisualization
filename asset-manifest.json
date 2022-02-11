@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/battedBallVisualization/static/css/main.59b2771f.css",
+    "main.js": "/battedBallVisualization/static/js/main.fb30972c.js",
+    "index.html": "/battedBallVisualization/index.html",
+    "main.59b2771f.css.map": "/battedBallVisualization/static/css/main.59b2771f.css.map",
+    "main.fb30972c.js.map": "/battedBallVisualization/static/js/main.fb30972c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59b2771f.css",
+    "static/js/main.fb30972c.js"
+  ]
+}
