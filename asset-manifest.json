@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/battedBallVisualization/static/css/main.59b2771f.css",
-    "main.js": "/battedBallVisualization/static/js/main.fb30972c.js",
+    "main.js": "/battedBallVisualization/static/js/main.a1212052.js",
     "index.html": "/battedBallVisualization/index.html",
     "main.59b2771f.css.map": "/battedBallVisualization/static/css/main.59b2771f.css.map",
-    "main.fb30972c.js.map": "/battedBallVisualization/static/js/main.fb30972c.js.map"
+    "main.a1212052.js.map": "/battedBallVisualization/static/js/main.a1212052.js.map"
   },
   "entrypoints": [
     "static/css/main.59b2771f.css",
-    "static/js/main.fb30972c.js"
+    "static/js/main.a1212052.js"
   ]
 }
