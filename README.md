@@ -22,3 +22,5 @@ Hovering over a point reveals the players involved and the date.
 
 When selecting players in the multiple select option, you can filter for any player and click their name to add them to the selected player list.
 To remove them from the list, click their name in the "Selected Players" list
+
+When selecting players for the "Versus" mode, first start with any player. We'll call this 'Player A' for now. The list will then be modified to only show players that 'Player A' has at least one data point for. Once you have selected a Pitcher and Hitter, click the "See Comp" button to see the results. Deselecting a player is the same as above.  
